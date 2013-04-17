@@ -1,0 +1,33 @@
+/*
+		Atomic 0.0.1
+
+		Copyright 2013 Francis Tseng
+		Released under the MIT License
+*/
+
+// ========================================== CONFIG
+$primary-color:#560F6D;
+$error-color:#DD4343;
+$success-color:#47C0B2;
+$primary-type: Verdana, Geneva, sans-serif;
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+// ========================================== CORE
+@import "core/normalize";
+@import "core/mixins";
+
+// ========================================== MODULES
+// Enable or disable here.
+@import "modules/icons";
+
+
+
+// ========================================== BUTTONS
+
+
+// ========================================== IMAGES
+img {
+	max-width:100%;
+	vertical-align:middle;
+}
