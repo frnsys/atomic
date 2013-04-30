@@ -8,23 +8,22 @@
 // ========================================== CONFIG
 $primary-color:#560F6D;
 $error-color:#DD4343;
+$warning-color:#E2E942;
 $success-color:#47C0B2;
 $primary-type: Verdana, Geneva, sans-serif;
+$baseline-font-size: 14px;
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
 // ========================================== CORE
 @import "core/normalize";
 @import "core/mixins";
+@import "core/type";
+@import "core/lists";
 
 // ========================================== MODULES
 // Enable or disable here.
 @import "modules/icons";
-
-
-
-// ========================================== BUTTONS
-
 
 // ========================================== IMAGES
 img {
