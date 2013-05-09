@@ -24,6 +24,9 @@ $success-color:#26CA7B;
 $primary-type: Verdana, Geneva, sans-serif;
 $selection-background: #222;
 
+// ========================================== CORE
+@import "core/core";
+
 // ========================================== MODULES
 // Enable or disable here.
 @import "modules/icons";
@@ -42,16 +45,6 @@ $selection-background: #222;
 .icon-question:before { content: "\f107"; }
 .icon-redo:before { content: "\f108"; }
 .icon-undo:before { content: "\f109"; }
-
-
-
-// ========================================== CORE
-@import "core/normalize"; // normalize.css
-@import "core/h5bp"; 			// html5 boilerplate
-@import "core/mixins";
-@import "core/type";
-@import "core/lists";
-@import "core/images";
 
 
 // Make life easier
