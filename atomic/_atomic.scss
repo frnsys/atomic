@@ -9,6 +9,9 @@
 	 Released under the MIT License
 	 ========================================== */
 
+// ========================================== CONFIG
+@import "config";
+
 // ========================================== CORE
 @import "core/normalize"; // normalize.css
 @import "core/h5bp"; 			// html5 boilerplate
@@ -16,9 +19,6 @@
 @import "core/type";
 @import "core/lists";
 @import "core/images";
-
-// ========================================== CONFIG
-@import "config";
 
 
 // Make life easier
