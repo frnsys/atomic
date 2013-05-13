@@ -28,11 +28,11 @@ $selection-background: #222;
 // ========================================== CORE
 @import "core/core";
 
-// ========================================== MODULES
+// ========================================== EXTENSIONS
 // Enable or disable here.
-@import "modules/icons";
-@import "modules/sticky_footer";
-@import "modules/geometry";
+@import "exts/icons";
+@import "exts/sticky_footer";
+@import "exts/geometry";
 
 // ========================================= ICONS
 // Add Font Custom icon classes here.
