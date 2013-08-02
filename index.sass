@@ -8,11 +8,20 @@ $error-color: #DD4343
 $warning-color: #E2E942
 $success-color: #26CA7B
 $primary-type: Verdana, Geneva, sans-serif
-$baseline-type-size: 16px
 $selection-background: #222
 
-// Configure Atomic in _atomic.scss
-@import "atomic"
+@import "core/core"
+
+// ========================================== EXTENSIONS
+// Enable or disable here.
+@import "exts/icons"
+//@import "exts/sticky_footer"
+
+// Make life easier
+*
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
 
 
 /* ==========================================
