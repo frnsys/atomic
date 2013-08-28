@@ -4,9 +4,19 @@ ul, li
 	padding: 0
 	list-style-type: none
 
+.list__horizontal
+    li
+        vertical-align: top
+        display: inline-block
+
+.list__horizontal--center
+    @extend .list__horizontal
+    text-align: center
+
 // Horizontal justified lists.
 // http://goo.gl/bFGl9A
-.list__horizontal
+.list__horizontal--justify
+    @extend .list__horizontal
     text-align: justify
     &:before
         content: ''
@@ -18,8 +28,6 @@ ul, li
         display: inline-block
         width: 100%
     li
-        vertical-align: top
-        display: inline-block
         position: relative
         top: 1.2em
         &:last-child
