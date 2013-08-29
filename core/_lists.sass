@@ -13,8 +13,14 @@ ul, li
     @extend .list__horizontal
     text-align: center
 
-// Horizontal justified lists.
-// http://goo.gl/bFGl9A
+/*  Horizontal justified lists.
+    http://goo.gl/bFGl9A
+    If you have having issues with vertical spacing,
+    set the ul's font-size to 0, and define a px font
+    for the li's.
+    Also try adjusting the li's line-height.
+*/
+
 .list__horizontal__justify
     @extend .list__horizontal
     text-align: justify
